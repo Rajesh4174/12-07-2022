@@ -7,6 +7,10 @@ public class Greeting {
 		
 		Wish english=()->  System.out.println("Good Morning");
 		english.greet();
+
+
+ Wish hindi=()-> System.out.println("Namaskar");
+    hindi.greet();
 	}
 
 }
